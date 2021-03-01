@@ -1,0 +1,95 @@
+@media(max-width:800px){
+    .header-title{
+        max-width: 257px;
+        margin-top: 30px;
+        font-size: 50px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .bg{
+        width: 100%;
+        height: auto;
+       bottom: 0;
+    }
+
+    .nebo-bg {
+        height: 100%;
+    }
+    .logo-img{
+        width: 58px;
+        height: 65px;
+    }
+    .header-subtitle{
+        max-width: 224px;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 18px;
+    }
+    .project-description-img{
+        display: none;
+    }
+    .project-description-title{
+        display: block;
+        font-size: 20px;
+        line-height: 40px;
+        color: #C09068;
+    }
+
+    .project-description-icon{
+        display: inline-block;
+    }
+
+    .project-description-subtitle{
+        display: block;
+        font-size: 20px;
+        line-height: 40px;
+        color: #4C473A;
+    }
+    .main-decorotive{
+        margin-top: 122px;
+        width: 109.42px;
+        height: 21.97px;
+    }
+    .main-select::before, .main-select::after{
+        display: none;
+    }
+    .custom-select__trigger > span{
+        color: #000000;
+        z-index: 1000;
+        font-size: 14px;
+        line-height: 16px;
+        width: 170px;
+    } 
+    .custom-select__trigger::after{
+        z-index: 1000;
+        content: '';
+        background:url('../dst/arrow.png');
+        width: 25px;
+        height: 25px;
+    }
+    .custom-select{
+        width: 271px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .custom-options > span{
+        font-size: 17px;
+        line-height: 42px;
+        color: #3E3E3E;
+    }
+    .custom-select::after {
+        content: "";
+        width: 271px;
+        height: 59px;
+        background-image: url('../dst/bdmob.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        z-index: 999;
+    }
+    .main-bg{
+        padding-top: 160px; 
+    }
+
+}
